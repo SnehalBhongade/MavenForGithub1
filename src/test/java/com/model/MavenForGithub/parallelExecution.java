@@ -35,6 +35,7 @@ public class parallelExecution {
 	  System.setProperty("webdriver.ie.driver", "D:\\Selenium Setup\\IEDriverServer_Win32_3.14.0\\IEDriverServer.exe");
 	  driver = new InternetExplorerDriver();
 	  driver.get("http://www.google.com");
+	  System.out.println("IE browser opened successfully");
   }
 
 }
