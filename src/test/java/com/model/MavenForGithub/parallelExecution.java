@@ -25,7 +25,7 @@ public class parallelExecution {
 	  System.setProperty("webdriver.gecko.driver", "D:\\Selenium Setup\\firefox\\geckodriver.exe");
 	  driver = new FirefoxDriver();
 	  driver.get("http://www.facebook.com");
-	  System.out.println("Successfully executed");
+	  System.out.println("Successfully executed"); 
   }
 
   @Test(priority=2)
